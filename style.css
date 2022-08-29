@@ -1,6 +1,15 @@
 body{
     margin: 0%;
-    margin-top: 10px;
+    
+    
+}
+.top{
+  float: left ;
+}
+.top-head{
+    height: 80px;
+    background-color: none;
+    margin-top: 20px;
 }
 .logo{
     margin-left: 20px;
@@ -10,13 +19,47 @@ body{
     max-width: 100%;
     width: auto;
 }
-.top-head{
-    height: 80px;
-    background-color: aqua;
-}
 .search{
+    background-color: #f7f7f7;
+    margin-left: 60px;
+    margin-top: 15px;
+  
+}
+.search input{
+   font-size: 30px;
+   border: none;
+   padding-bottom: 8px;
+   margin-left: 3px;
+   background-color: #f7f7f7;
+}
+.search button{
+  width: 40px;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  background-color: #f7f7f7;
+}
 
+.search input:hover{
+    background-color: #efefef;
 }
-.top{
-    float: left;
+.search:hover{
+    background-color: #efefef;
 }
+.promotional{
+    margin-left: 15px;
+    margin-top: 18px;
+}
+.call {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold
+    ma
+    
+}
+
+
+
+
+
+
