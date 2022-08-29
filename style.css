@@ -54,12 +54,118 @@ body{
 .call{
     margin-left: 15px;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration-line: none; 
 }
 
+.cart{
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 220px;
+    margin-top: 20px;
+    
 
+}
+.profile-icon{
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.fa-solid, .fas {
+ 
+    font-weight: 900;
+    color: grey;
+}
+.fa-regular, .far {
+    font-weight: 400;
+    color: grey;
+}
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(172, 1, 1);
+  }
+  
+  li {
+    float: left;
+    margin-left: 40px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.mySlides img{
+    max-width: 100%;
+    height: 480px;
+    vertical-align: middle;
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+
+
+
+ 
 
 
 

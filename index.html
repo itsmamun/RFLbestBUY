@@ -7,7 +7,8 @@
     <title>Best Online Shop in Bangladesh: Buy Household Items at RFL Bestbuy</title>
     <link rel="shortcut icon" type="image/jpg" href="images/logos/favicon.ico"/>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> 
+
     
 </head>
 <body>
@@ -31,24 +32,131 @@
                 <a href="#">Call for Add <br> 0100000000</a>
             </p>
         </div>
-        <div class="top">
-            <p>
-                
-                <i class="fa-light fa-cart-arrow-down"></i> test
-            </p>
-           
-           
-            
+        <div class="top cart">
+            <a href="#"> 
+                <i class="fa-solid fa-cart-shopping"></i>
+                <br>
+                <span>Cart</span>
+            </a>
 
         </div>
+        <div class="top profile-icon">
+            <a  href="#"> 
+                <i class="fa-regular fa-user"></i><br>
+                <span>Profile</span>
+            </a>
+        </div>  
+    </div>
+    <div>
        
-
-        
+          
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+          </ul>
+          
     </div>
 
-   
-      <button style="font-size:24px">Button <i class="fa-thin fa-cart-arrow-down"></i>
-      </button>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/slider/Air-Cooler-Category.jpg" style="width: 100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/slider/Blender-Category.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/slider/Ladder-Category.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/slider/Mosquito-Bat.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+        
+
+    
+      
+
+      
 
    
 
