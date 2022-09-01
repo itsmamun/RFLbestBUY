@@ -164,6 +164,8 @@ a {
 .promotionsection{
   height: 500px;
   background-color: #ca1118;
+  padding-left: 20px;
+  
 }
 
 .promotiontext{
@@ -171,126 +173,68 @@ a {
     font-size: 20px;
     letter-spacing: normal;
     line-height: initial;
+    padding-top: 10px;
+    color: #f7f7f7;
+    
+    
 }
 .promotionbox{
   opacity: 1;
   display: block;
 }
 
-.iteamtwo{
-  width: 300px;
-  height: 350px;
-  background-color: green;
+.promotionitem{
+  width: 330px;
+  height: 300px;
+  background-color: rgb(248, 248, 248);
   float: left;
   margin-right: 5px;
   margin-left: 5px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.index-post {
-  width: 1124px; transition: all 1.5s;
-  height: 364px; overflow: hidden; 
-  margin: auto;
-  display: block;
-  margin-top: 5%;
+.promotionitemtextbox{
+  display: flex;
+  margin-left: 10px;
+  padding-top: 15px;
 }
 
-.contener {
-  float: left;
-  margin: 20px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 240px;
-  height: 320px;
-  overflow: hidden;
-  background: #fff;
+.promotionitemtextcal{
+  width: 60px;
+  background-color: whitesmoke;
   border-radius: 5px;
-  box-shadow: 0 0 3px 0 #00000073;
-  transition: all 0.3s;
-}
-
-.contener:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 11px 14px rgb(0 0 0 / 25%), 0 8px 20px rgb(0 0 0 / 10%);
-}
-
-.image-contener {
-  display: block;
-  width: 100%;
-  height: 140px;
-  overflow: hidden;
-}
-
-.image-contener img {
-  width: 100%;
-}
-
-.meta-contener {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 110px;
-  padding: 10px 20px;
-}
-
-.meta-contener .title {
-  padding: 0;
-  margin: 10px 0;
-  font-size: 22px;
-  color: #0076b6;
-}
-
-.meta-contener .desc {
-  font-size: 13px;
   text-align: center;
-  color: #373737;
+  display: inline-block;
+  padding: 5px;
+  color: rgb(73, 73, 73);
+  border-top: 4px dashed rgb(88, 88, 88);
 }
 
-.button-contener {
-  display: flex;
-  align-items: center;
-  width: 80%;
+.promotionitemtextdate{
+  margin-left: 15px;
+}
+
+.promotionbutton a {
+  background-color: #f4433609;
+  color: white;
+  padding: 14px 25px;
   text-align: center;
-  height: 40px;
-}
-
-.button-contener .button {
-  width: 100%;
-  padding: 6px 0;
   text-decoration: none;
-  background: linear-gradient(125deg, #00ff35 0%, #0091a7 60%);
-  color: #fff;
-  border-radius: 5px;
-  font-size: 14px;
-  transition: all 0.3s;
-
+  display: inline-block;
 }
 
-.button-contener .button:hover {
-  padding-left: 15px;
+.promotionbutton a:hover, a:active {
+  background-color: rgb(184, 0, 0);
 }
 
-@media screen and (max-width:1124px){
-  .index-post{
-      width: 562px; height: 728px;
-  }
-}
-@media screen and (max-width:562px){
-  .index-post{
-      width: 281px; height: 1496px;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
